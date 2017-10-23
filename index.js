@@ -134,8 +134,8 @@ function moveDodgerLeft() {
       window.requestAnimationFrame(step);
     }
   }
-
-   console.log("Left!" + left);
+  window.requestAnimationFrame(step)
+  console.log("Left!" + left);
 }
 
 function moveDodgerRight() {
