@@ -135,7 +135,7 @@ function moveDodgerLeft() {
     }
   }
 
-   console.log("Left!");
+   console.log("Left!" + left);
 }
 
 function moveDodgerRight() {
